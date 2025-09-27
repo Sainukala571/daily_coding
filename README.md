@@ -21,3 +21,20 @@ Compare each element with the current largest value.
 If the element is greater, update the largest value.
 
 After the loop ends, the variable largest will hold the maximum element.
+
+#DAY-5
+ANAGRAM PROBLEM 
+PROBLEM APPROCH AND EXPLANATION
+🧠 Approach & Logic
+
+Check Lengths
+
+If lengths differ, the strings cannot be anagrams.
+
+Sort and Compare
+
+Sort both strings.
+
+If their sorted results are equal → they are anagrams.
+
+Otherwise → not anagrams.
