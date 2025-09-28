@@ -38,3 +38,13 @@ Sort both strings.
 If their sorted results are equal → they are anagrams.
 
 Otherwise → not anagrams.
+
+
+# day -6 length of last word
+It takes a string s as input.
+
+The split() function breaks the string into a list of words (separated by spaces).
+
+[-1] is used to access the last word in that list.
+
+Finally, len() is applied to return the number of characters in that last word.
